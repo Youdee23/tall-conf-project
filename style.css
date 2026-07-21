@@ -1,0 +1,366 @@
+.container{
+    max-width: 1100px;
+}
+
+.navlinks{
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.hero{
+    background-color: #673399;
+    padding: 3rem 0;   
+}
+
+.btn{
+    background-color: white;
+    border-radius: 50px;
+    color: purple;
+    padding: 1rem 1.5rem;
+    border: none;
+    margin: 1.5rem 0 2rem 0;
+    font-size: 1rem;
+}
+
+.hero .container{
+    text-align: center;
+    padding: 0 2rem;
+    color: white;
+}
+
+.paragraph{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 0.5px 0;
+    line-height: 1.7;
+}
+
+.heading{
+    font-size: 3.0rem;
+    font-weight: 700;
+    padding: 0 0 1px 0;
+    margin: 0;
+    font-family: "Inter";
+    letter-spacing: 2px;
+}
+
+.navbar{
+    background-color: #673399;
+    padding: 2rem 0;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navlinks a{
+    color: white;
+}
+
+body{
+    font-family: "Inter";
+}
+
+#head{
+    color: #673399;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Inter";
+    margin-bottom: 1rem;
+}
+
+.intro{
+    background-color: #f5efff;
+    padding: 20px 0 60px 0;
+    text-align: center;
+}
+
+.intro .container{
+    text-align: center;
+}
+
+.session-one img{
+    width: 350px;
+    border-radius: 50%;
+    border: 20px solid white;
+    margin: 75px 0;
+}
+.session-one .container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
+.session-text{
+    max-width: 420px;
+    margin-left: 0; 
+}
+
+#label{
+    color: #673399;
+    font-size: small;
+    font-weight: 300;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.session-text h1{
+    color: #673399;
+    font-family: "Inter";
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.container img{
+    position: relative;
+    left: -80px;
+    border: 6px solid white;
+    box-shadow: 0 8px 20px rgba(128, 0, 128, 0.15);
+    width: 350px;
+    border-radius: 50%;
+}
+
+#invite{
+    font-size: medium;
+    width: 500px;
+    padding: 0;
+    margin-top: 0;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.session-two .container{
+    display: flex;
+    justify-content: flex-start;
+    margin: 6rem auto 0;
+    padding: 0 0.5rem;
+    gap: 2.5rem;
+}
+
+.container .session-text2{
+    position: relative;
+    left: -80px;
+    width: 450px;
+}
+
+#course{
+    font-size: small;
+    color: #673399;
+    padding-bottom: 0;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.session-text2 h1{
+    color: #673399;
+    font-family: "Inter";
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+    width: 300px;
+    line-height: 1;
+}
+
+#scheme{
+    font-weight: 200;
+    font-size: medium;
+    line-height: 1.5;
+}
+
+.session-three .container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5rem auto;
+    padding: 0 0.5rem;
+}
+
+#build{
+    font-size: small;
+    color: #673399;
+    font-weight: 300;
+}
+
+.session-three h1{
+    color: #673399;
+    font-family: "Inter";
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 0;
+    letter-spacing: 0.5px;
+    width: 400px;
+    line-height: 1;
+}
+
+#partner{
+    font-weight: 200;
+    font-size: medium;
+    line-height: 1.5;
+    width: 500px;
+}
+
+.session-four .container{
+    display: flex;
+    justify-content: flex-start;
+    margin: 8rem 4.5rem 0;
+    padding: 0 0.5rem;
+    gap: 8rem;
+}
+
+#design{
+    font-size: small;
+    color: #673399;
+    padding: 0;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+#review{
+    width: 500px;
+    margin-top: 0;
+    font-weight: 200;
+    font-size: medium;
+    line-height: 1.5;
+    padding-top: 0;
+}
+
+.session-four h1{
+    color: #673399;
+    font-family: "Inter";
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    letter-spacing: 0.5px;
+    width: 400px;
+    line-height: 1;
+}
+
+.session-five .container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5rem auto;
+    padding: 0 0.5rem;
+}
+
+#demo{
+    font-size: small;
+    color: #673399;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.session-five h1{
+    color: #673399;
+    font-family: "Inter";
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 400px;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+#present{
+    font-weight: 200;
+    font-size: medium;
+    line-height: 1.5;
+    width: 500px;
+    margin-top: 5px;
+}
+
+.session-six{
+    background-color: #f5efff;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    padding: 10px 80px;
+    margin-top: 0;
+    gap: 25px;
+}
+
+.details{
+    border: 3px solid #7646a3;
+    border-radius: 15px;
+    padding: 15px 30px;
+    width: 300px;
+    text-align: center;
+    height: 100px;
+    margin-top: 0;
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+
+.details h4{
+    margin-bottom: 10px;
+    color: #7646a3;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#information{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 90px;
+    color: #7646a3;
+    font-weight: 500;
+}
+
+#events{
+    text-align: center;
+    color: #7646a3;
+    padding-top: 80px;
+    padding-bottom: 0;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.details p{
+    margin-top: 0;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+footer{
+    background-color: #673399;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer p{
+    font-size: 15px;
+    font-weight: 500;
+}
